@@ -59,6 +59,10 @@
           "title": "News",
           "items": [
             {
+              "date": "Oct 2026",
+              "text": "*Towards Autoregressive Neural Network Parameter Generation* published in TMLR."
+            },
+            {
               "date": "2026",
               "text": "LS-Merge accepted at ICLR 2026."
             },
@@ -141,6 +145,15 @@
           "type": "publications",
           "title": "2026",
           "items": [
+            {
+              "venue": "TMLR 2026",
+              "title": "Towards Autoregressive Neural Network Parameter Generation",
+              "authors": "**Bedionita Soro**, Bruno Andreis, Song Chong, Sung Ju Hwang",
+              "conference": "Transactions on Machine Learning Research (TMLR), 2026",
+              "tldr": "Casts weight generation as LLM-style autoregressive modeling: a VQ-VAE tokenizes pretrained weights and a prefix-conditioned transformer generates them, giving competitive in-distribution generation and useful initializations for held-out datasets and architectures.",
+              "links": "OpenReview | https://openreview.net/forum?id=8Ieryq0C7c\nCode | https://github.com/sorobedio/tmlr-igpg",
+              "image": "assets/images/pubs/igpg-tmlr.jpg"
+            },
             {
               "venue": "ICLR 2026",
               "title": "LS-Merge: Merging Language Models in Latent Space",
