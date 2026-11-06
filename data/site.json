@@ -59,6 +59,10 @@
           "title": "News",
           "items": [
             {
+              "date": "Nov 2026",
+              "text": "New preprint: *A Night at the LLM Zoo: Data Conditioned Flow Matching for Generating Pretrained LLM Weights* on arXiv."
+            },
+            {
               "date": "Oct 2026",
               "text": "*Towards Autoregressive Neural Network Parameter Generation* published in TMLR."
             },
@@ -145,6 +149,14 @@
           "type": "publications",
           "title": "2026",
           "items": [
+            {
+              "venue": "Preprint 2026",
+              "title": "A Night at the LLM Zoo: Data Conditioned Flow Matching for Generating Pretrained LLM Weights",
+              "authors": "Scott Biggs, **Bedionita Soro**, Saumya Gupta, Bruno Andreis, Sung Ju Hwang",
+              "conference": "arXiv preprint arXiv:2611.07103, 2026",
+              "tldr": "Builds a zoo of 300 GPT-2 models (51M–355M) trained on systematically varied data mixtures, then trains a mixture-conditioned flow matching model in Gram-PCA compressed weight space that generates complete pretrained LLM weights and generalizes zero-shot to held-out mixtures.",
+              "links": "arXiv | https://arxiv.org/abs/2611.07103"
+            },
             {
               "venue": "TMLR 2026",
               "title": "Towards Autoregressive Neural Network Parameter Generation",
